@@ -51,7 +51,7 @@
 	" It uses PHP Mess Detector, I do not like how that behaves
 	let g:syntastic_mode_map = { 'mode': 'active',
 	                           \ 'active_filetypes': [],
-	                           \ 'passive_filetypes': ['php'] }
+	                           \ 'passive_filetypes': ['php', 'css'] }
 	let g:syntastic_error_symbol='✗'
 	let g:syntastic_warning_symbol='⚠'
 " }
