@@ -198,6 +198,9 @@
 
 	map <Tab> :MiniBufExplorer<CR>
 
+	map <C-Tab> :bnext<CR>
+	map <C-S-Tab> :bprevious<CR>
+
 	" Remap CMD + F to fullscreen mode
 	if has("gui_running")
 		set fuopt+=maxhorz
