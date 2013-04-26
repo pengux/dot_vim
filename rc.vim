@@ -72,17 +72,17 @@
 
 " Backup, Swap and View Files {
 	" Create dirs
-	silent execute '!mkdir -p $HOME/.vimbackup'
-	silent execute '!mkdir -p $HOME/.vimswap'
-	silent execute '!mkdir -p $HOME/.vimviews'
-	silent execute '!mkdir -p $HOME/.vimundo'
+	silent execute '!mkdir -p $HOME/.vim/.backup'
+	silent execute '!mkdir -p $HOME/.vim/.swap'
+	silent execute '!mkdir -p $HOME/.vim/.views'
+	silent execute '!mkdir -p $HOME/.vim/.undo'
 	" Store backups in $HOME to keep the directory trees clean
 	set backup
 	set undofile
-	set backupdir=$HOME/.vimbackup/
-	set directory=$HOME/.vimswap/
-	set viewdir=$HOME/.vimviews/
-	set undodir=$HOME/.vimundo/
+	set backupdir=$HOME/.vim/.backup/
+	set directory=$HOME/.vim/.swap/
+	set viewdir=$HOME/.vim/.views/
+	set undodir=$HOME/.vim/.undo/
 " }
 
 " Tabs and Indentation {
