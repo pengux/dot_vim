@@ -139,7 +139,7 @@
 	
 	autocmd ColorScheme * call CorrectColorScheme()
 
-	colorscheme github
+	colorscheme carvedwood
 " }
 
 " UI {
