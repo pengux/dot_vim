@@ -132,6 +132,9 @@
 		" Fix todo highlight
 		hi clear Todo
 		hi Todo ctermfg=124 guifg=#af0000
+
+		" Fix sign column where syntastic errors are displayed
+		hi SignColumn ctermfg=238 guifg=#444444 ctermbg=238 guibg=#444444
 	endfunction
 	
 	autocmd ColorScheme * call CorrectColorScheme()
