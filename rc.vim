@@ -48,10 +48,10 @@
 " Syntastic {
 	let g:syntastic_check_on_open=1
 	
-	" It uses PHP Mess Detector, I do not like how that behaves
-	let g:syntastic_mode_map = { 'mode': 'active',
-	                           \ 'active_filetypes': [],
-	                           \ 'passive_filetypes': ['php', 'css'] }
+	" It uses PHP Mess Detector and PHP_CodeSniffer, I do not like how those behaves
+	let g:syntastic_php_checkers=['php']
+	let g:syntastic_css_checkers=['csslint', 'prettycss']
+
 	let g:syntastic_error_symbol='✗'
 	let g:syntastic_warning_symbol='⚠'
 " }
