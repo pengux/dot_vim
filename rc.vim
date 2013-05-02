@@ -102,6 +102,7 @@
 	if has("gui_running")
 		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
 		set antialias
+		set linespace=3
 
 		" Force MacVim to skip colors
 		let macvim_skip_colorscheme=1
