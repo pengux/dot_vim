@@ -30,7 +30,6 @@
 	
 	Bundle 'beyondwords/vim-twig'
 	Bundle 'Lokaltog/vim-distinguished'
-	Bundle 'kchmck/vim-coffee-script'
 	Bundle 'tpope/vim-markdown'
 	Bundle 'scrooloose/syntastic'
 	Bundle 'kien/ctrlp.vim'
