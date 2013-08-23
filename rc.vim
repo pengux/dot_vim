@@ -95,14 +95,14 @@
 	set tabstop=4
 	set shiftwidth=4
 	
-	" Different tab-width on YAML files
+	" Different tab-width on YAML and Ruby files
 	autocmd FileType yaml setlocal expandtab shiftwidth=2 tabstop=2
+	autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
 	" Python should be indented with spaces preferrably
 	autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=4
 " }
 
 " Font and Color {
-	
 	if has("gui_running")
 		set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h13
 		set antialias
