@@ -143,7 +143,7 @@
 	
 	autocmd ColorScheme * call CorrectColorScheme()
 
-	colorscheme carvedwood
+	colorscheme railscasts
 " }
 
 " UI {
