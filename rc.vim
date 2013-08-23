@@ -204,6 +204,9 @@
 
 	nnoremap <F3> :set hlsearch!<CR>
 
+	" Allow saving of files as sudo when vim is not running under sudo
+	" NOTE: Does not work in gvim
+	cmap w!! w !sudo tee > /dev/null %
 
 	map <C-Tab> :bnext<CR>
 	map <C-S-Tab> :bprevious<CR>
