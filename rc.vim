@@ -149,8 +149,11 @@
 " UI {
 	set list
 	set listchars=eol:¬,tab:▸\ ,trail:·
+	" Display hidden unicode characters as hex
+	set display+=uhex
 	
-	" Line numbers on
+	" Relative line numbers on, with current line showing current line number
+	set relativenumber
 	set number
 	
 	" Highlight all search matches
