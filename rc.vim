@@ -40,8 +40,11 @@
 	Bundle 'airblade/vim-rooter'
 	Bundle 'vim-scripts/Smart-Tabs'
 	Bundle 'scrooloose/nerdtree'
-	Bundle 'fholgado/minibufexpl.vim'
-	
+	Bundle 'godlygeek/tabular'
+	Bundle 'L9'
+	Bundle 'FuzzyFinder'
+	Bundle 'vim-scripts/bufkill.vim'
+
 	" Required!
 	filetype plugin indent on
 " }
@@ -66,9 +69,8 @@
 	let g:rooter_use_lcd = 1
 " }
 
-" minibufexpl {
-	let g:miniBufExplCloseOnSelect = 1
-	let g:miniBufExplMapCTabSwitchBufs = 1
+" Bufkill {
+	let g:BufKillCreateMappings = 0
 " }
 
 " Backup, Swap and View Files {
@@ -199,9 +201,6 @@
 
 	nnoremap <F3> :set hlsearch!<CR>
 
-	" MiniBufExplorer on <Tab>
-
-	map <Tab> :MiniBufExplorer<CR>
 
 	map <C-Tab> :bnext<CR>
 	map <C-S-Tab> :bprevious<CR>
