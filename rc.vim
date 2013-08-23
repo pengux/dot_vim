@@ -1,7 +1,7 @@
 " General {
 	set nocompatible
 	set encoding=utf-8
-	set fileencoding=utf-8
+	setglobal fileencoding=utf-8
 	set fileencodings=ucs-bom,utf-8
 	" Display incomplete commands
 	set showcmd
@@ -9,6 +9,8 @@
 	set hidden
 	" Don't add invisible linebreak at EOF
 	set binary noeol
+
+	let mapleader = "§"
 " }
 
 " Vundle {
@@ -203,6 +205,10 @@
 
 	map <C-Tab> :bnext<CR>
 	map <C-S-Tab> :bprevious<CR>
+
+	map <Leader>w :BD<CR>
+
+	map <Leader>= <C-w>=
 
 	" Remap CMD + F to fullscreen mode
 	if has("gui_running")
