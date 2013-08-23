@@ -110,6 +110,10 @@
 
 		" Force MacVim to skip colors
 		let macvim_skip_colorscheme=1
+
+		set transparency=4
+	else
+		set t_Co=256
 	endif
 	
 	syntax on
