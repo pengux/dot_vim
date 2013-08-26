@@ -1,4 +1,5 @@
 Installation:
+=============
 
 ```
   ln -s dot_vim ~/.vim
@@ -8,3 +9,5 @@ Installation:
   vim +BundleInstall +qall
 ```
 
+The font used by this configuration can be found here:
+https://gist.github.com/toupeira/1630581
