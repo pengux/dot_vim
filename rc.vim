@@ -215,7 +215,7 @@
 	map <C-Tab> :bnext<CR>
 	map <C-S-Tab> :bprevious<CR>
 
-	map <Leader>w :BD<CR>
+	map <Leader>w :bp\|bd #<CR>
 
 	map <Leader>= <C-w>=
 
