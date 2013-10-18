@@ -230,6 +230,8 @@
 
 	map <Leader>= <C-w>=
 
+	map <Leader><Tab> :NERDTreeToggle<CR>
+
 	" Remap CMD + F to fullscreen mode
 	if has("gui_running")
 		set fuopt+=maxhorz
