@@ -30,20 +30,26 @@
 	" Required!
 	Bundle 'gmarik/vundle'
 	
+	" Syntax
 	Bundle 'beyondwords/vim-twig'
-	Bundle 'Lokaltog/vim-distinguished'
+	Bundle 'othree/html5.vim'
 	Bundle 'tpope/vim-markdown'
-	Bundle 'scrooloose/syntastic'
-	Bundle 'kien/ctrlp.vim'
-	Bundle 'tpope/vim-fugitive'
-	Bundle 'Lokaltog/vim-powerline'
+
+	" Tools
 	Bundle 'airblade/vim-rooter'
-	Bundle 'vim-scripts/Smart-Tabs'
-	Bundle 'scrooloose/nerdtree'
-	Bundle 'godlygeek/tabular'
-	Bundle 'L9'
 	Bundle 'FuzzyFinder'
+	Bundle 'godlygeek/tabular'
+	Bundle 'kien/ctrlp.vim'
+	Bundle 'L9'
+	Bundle 'Lokaltog/vim-powerline'
+	Bundle 'scrooloose/nerdtree'
+	Bundle 'scrooloose/syntastic'
+	Bundle 'tpope/vim-fugitive'
+	Bundle 'vim-scripts/Smart-Tabs'
 	Bundle 'vim-scripts/bufkill.vim'
+
+	" Colorschemes
+	Bundle 'Lokaltog/vim-distinguished'
 
 	" Required!
 	filetype plugin indent on
