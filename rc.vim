@@ -108,6 +108,7 @@
 	" Different tab-width on YAML and Ruby files
 	autocmd FileType yaml setlocal expandtab shiftwidth=2 tabstop=2
 	autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
+	autocmd FileType coffee setlocal expandtab shiftwidth=2 tabstop=2
 	" Python should be indented with spaces preferrably
 	autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=4
 " }
