@@ -32,6 +32,10 @@
 	
 	" Syntax
 	Bundle 'beyondwords/vim-twig'
+	Bundle 'groenewege/vim-less'
+	Bundle 'guns/vim-clojure-static'
+	Bundle 'jnwhiteh/vim-golang'
+	Bundle 'kchmck/vim-coffee-script'
 	Bundle 'othree/html5.vim'
 	Bundle 'tpope/vim-markdown'
 
