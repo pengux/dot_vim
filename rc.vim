@@ -38,6 +38,7 @@
 	Bundle 'kchmck/vim-coffee-script'
 	Bundle 'othree/html5.vim'
 	Bundle 'tpope/vim-markdown'
+	Bundle 'vim-scripts/nginx.vim'
 
 	" Tools
 	Bundle 'airblade/vim-rooter'
