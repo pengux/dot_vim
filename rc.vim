@@ -42,6 +42,7 @@
 
 	" Tools
 	Bundle 'airblade/vim-rooter'
+	Bundle 'christoomey/vim-tmux-navigator'
 	Bundle 'FuzzyFinder'
 	Bundle 'godlygeek/tabular'
 	Bundle 'kien/ctrlp.vim'
@@ -182,6 +183,10 @@
 	" Ignore case for search unless it contains uppercase characters
 	set ignorecase
 	set smartcase
+
+	" After vertical split, select lower pane
+	" (hozontal splitting, keep default: select left pane)
+	set splitbelow
 	
 	" Always keep this many lines below the line currently being edited
 	set scrolloff=5
