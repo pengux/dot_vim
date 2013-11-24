@@ -53,6 +53,7 @@
 	Bundle 'tpope/vim-fugitive'
 	Bundle 'vim-scripts/Smart-Tabs'
 	Bundle 'vim-scripts/bufkill.vim'
+	Bundle 'terryma/vim-multiple-cursors'
 
 	" Colorschemes
 	Bundle 'Lokaltog/vim-distinguished'
