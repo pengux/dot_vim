@@ -252,4 +252,7 @@
 		macmenu &Edit.Find.Find\.\.\. key=<nop>
 		map <D-f> :set invfu<CR>
 	endif
+
+	" Map F5 to delete trailing whitespaces
+	nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 " }
