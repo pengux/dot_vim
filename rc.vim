@@ -78,6 +78,13 @@
 	let g:Powerline_symbols = 'fancy'
 " }
 
+" vim-golang {
+	augroup filetype_html
+    	autocmd!
+		autocmd FileType go autocmd BufWritePre <buffer> Fmt
+	augroup END
+" }
+
 " Rooter {
 	let g:rooter_use_lcd = 1
 " }
